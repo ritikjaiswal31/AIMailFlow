@@ -1,1 +1,31 @@
 /.vscode
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Java / Maven
+target/
+*.class
+
+# Node.js
+node_modules/
+
+# Vite build output
+dist/
+dist-ssr/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
