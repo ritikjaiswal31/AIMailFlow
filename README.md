@@ -4,18 +4,16 @@
 
 ## Project Overview
 
-AIMailFlow is an AI-powered email response system that generates context-aware email replies using **Google Gemini AI**. The application is built using **Spring Boot** for the backend, **React** for the frontend, and a **Chrome Extension** for Gmail integration. It provides tone-based email generation through REST APIs and uses **WebClient** for communication with the Gemini API.
+AIMailFlow is an AI-powered email response solution that generates context-aware replies using **Google Gemini AI**. The application uses **Spring Boot** for the backend and **React** for the frontend, with a **Chrome Extension** for Gmail integration. It provides tone-based email generation through REST APIs, while **WebClient** handles communication between the backend and Gemini AI.
 
 ---
 
 ## Key Features
 
-* AI-powered email reply generation using **Gemini 1.5 Flash**
+* AI-powered, context-aware email reply generation using **Gemini AI**
 * Context-aware responses based on email content
 * Tone-based response generation, including **Professional, Casual, and Friendly**
 * Gmail integration through a **Chrome Extension**
-* RESTful API for email generation
-* Real-time AI communication using **Spring WebClient**
 * API testing and validation using **Postman**
 
 ---
@@ -29,7 +27,6 @@ AIMailFlow is an AI-powered email response system that generates context-aware e
 | Communication  | REST APIs                  |
 | Extension      | Chrome Extension           |
 | API Testing    | Postman                    |
-| Build Tool     | Maven                      |
 
 ---
 
