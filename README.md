@@ -4,13 +4,13 @@
 
 ## Project Overview
 
-AIMailFlow is an AI-powered email response solution that generates context-aware replies using **Google Gemini AI**. The application uses **Spring Boot** for the backend and **React** for the frontend, with a **Chrome Extension** for Gmail integration. It provides tone-based email generation through REST APIs, while **WebClient** handles communication between the backend and Gemini AI.
+AIMailFlow is an AI-powered email response solution that generates context-aware replies using the **Gemini API**. The application uses **Spring Boot** for the backend and **React** for the frontend, with a **Chrome Extension** for Gmail integration. It provides tone-based email generation through REST APIs, while **WebClient** handles communication between the backend and the **Gemini API**.
 
 ---
 
 ## Key Features
 
-* AI-powered, context-aware email reply generation using **Gemini AI**
+* AI-powered, context-aware email reply generation using the **Gemini API**
 * Context-aware responses based on email content
 * Tone-based response generation, including **Professional, Casual, and Friendly**
 * Gmail integration through a **Chrome Extension**
@@ -24,7 +24,7 @@ AIMailFlow is an AI-powered email response solution that generates context-aware
 | -------------- | -------------------------- |
 | Backend        | Spring Boot                |
 | Frontend       | React                      |
-| AI Integration | Google Gemini AI           |
+| AI Integration | Gemini API                 |
 | Communication  | REST APIs                  |
 | Extension      | Chrome Extension           |
 | API Testing    | Postman                    |
@@ -34,6 +34,7 @@ AIMailFlow is an AI-powered email response solution that generates context-aware
 ## Architecture
 
 ```text
+
                          AIMailFlow Application
                                   │
                     ┌─────────────┴─────────────┐
@@ -58,7 +59,7 @@ AIMailFlow is an AI-powered email response solution that generates context-aware
                            WebClient
                                   │
                                   ▼
-                             Gemini AI
+                           Gemini API
                                   │
                                   ▼
                          Generated Reply
