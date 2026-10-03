@@ -24,6 +24,7 @@ AIMailFlow is an AI-powered email response solution that generates context-aware
 | -------------- | -------------------------- |
 | Backend        | Spring Boot                |
 | Frontend       | React                      |
+| AI Integration | Google Gemini AI           |
 | Communication  | REST APIs                  |
 | Extension      | Chrome Extension           |
 | API Testing    | Postman                    |
